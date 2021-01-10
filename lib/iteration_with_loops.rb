@@ -3,6 +3,7 @@ def find_min_in_nested_arrays(src)
  i = 0
  while i < src.size do
  array << src[i].min
+ i + 1
 end
 
  
